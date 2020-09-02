@@ -12,6 +12,8 @@ sorl-thumbnail = "*"
 djangorestframework = "*"
 Pillow = "*"
 Django = "*"
+isort = "*"
+pylint = "*"
 
 [requires]
 python_version = "3.8"
