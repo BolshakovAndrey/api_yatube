@@ -4,6 +4,7 @@ from posts.models import Comment, Post
 
 
 class PostSerializer(serializers.ModelSerializer):
+
     author = serializers.ReadOnlyField(source='author.username')
 
     class Meta:
